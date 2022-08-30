@@ -204,7 +204,44 @@ span {
   text-transform: capitalize;
 }
 
+
 @media screen and (min-width: 200px) and (max-width: 750px) {
+  .navbar {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+
+  .Body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: -70px;
+    width: 100%;
+  }
+
+  .set2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-text {
+    margin-right: 50px;
+    background-color: #c64d47;
+    width: 100%;
+  }
+
+  .clear {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: rgb(7, 7, 134);
+    font-weight: 200;
+    font-size: large;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
   #img1 {
     width: 1px;
     height: 1px;
@@ -226,6 +263,8 @@ span {
   .img04 {
     width: 1px;
     height: 1px;
+    padding-left: 10px;
+    padding-top: 20px;
     display: none;
   }
 
@@ -239,6 +278,7 @@ span {
     width: 1px;
     height: 1px;
     display: none;
+    padding-left: 1px;
   }
 
   #img3 {
@@ -251,6 +291,7 @@ span {
     width: 1px;
     height: 1px;
     display: none;
+    padding-left: 1px;
   }
 
   #img5 {
@@ -262,33 +303,26 @@ span {
     width: 1px;
     height: 1px;
     display: none;
+    padding-left: 1px;
   }
 
   .schedule {
     background-color: #ed9e9a;
     color: #c64d47;
+    box-shadow: #ed9e9a 2px 2px 2px 2px;
   }
 
   .login {
     background-color: white;
     color: black;
+    text-align: center;
+    padding-top: 15px;
   }
 
   .home-nav,
   .abt-nav {
     background-color: white;
     color: black;
-  }
-  .navbar {
-    padding-top: 10px;
-    padding-right: 5px;
-  }
-
-  .clear {
-    color: rgb(7, 7, 134);
-  }
-  .Body {
-    width: 140%;
   }
   .form {
     width: 50vw;
